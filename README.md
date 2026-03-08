@@ -48,3 +48,13 @@ Systems
 
 Quality
 - Three packages missing paperwork — escalated to PA
+
+---
+
+## Tech Stack
+- Microsoft 365 Copilot
+- Prompt Engineering
+- Workflow Automation
+- Slack (manual input workflow)
+- Power Automate (future integration)
+- GitHub (documentation and versioning)
