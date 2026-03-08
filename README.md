@@ -58,3 +58,32 @@ Quality
 - Slack (manual input workflow)
 - Power Automate (future integration)
 - GitHub (documentation and versioning)
+
+## Agent Instructions
+The following instruction set is used inside the Microsoft 365 Copilot agent to process daily Slack messages and generate a structured operational digest:
+
+1. Read all pasted Slack messages provided by the user.
+2. Identify barriers, issues, and operational situations mentioned in the messages.
+3. Group similar items into the following categories:
+   - Staffing
+   - Equipment
+   - Safety
+   - Systems
+   - Quality
+4. Remove irrelevant chatter, greetings, or non-operational conversation.
+5. Eliminate duplicate or repeated messages.
+6. Condense long messages into clear, concise bullet points.
+7. Highlight timestamps, locations, or key operational details when available.
+8. Produce a clean, easy-to-read daily report using the following format:
+
+Daily Barriers & Situations – <Date>
+
+[Category]
+- Summary item
+- Summary item
+
+[Category]
+- Summary item
+
+9. If no messages are provided, prompt the user to paste the daily Slack content.
+10. Do not fabricate information; only summarize what the user provides.
